@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "lalezar";
+    src: url("../assets/fonts/Lalezar.ttf");
+}
+@font-face{
+    font-family: "yekan";
+    src: url("../assets/fonts/Yekan.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+
+}
+body{
+    background: rgb(212, 133, 133);
+    font-family:yekan;
+
+}
+/*todo------ header section ------ */
+section.header{
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/images/backgrounds/6.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
