@@ -19,31 +19,83 @@ body{
     font-family:yekan;
 
 }
-/*todo------ header section ------ */
-.header-section{
+
+.header-section .header{
     width: 100%;
-    height: 100vh;
+    height: 20%vh;
     background: url("../assets/images/backgrounds/6.jpg") no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-section .top-bar{
+.header-section .header .top-bar{
     width: 100%;
-    height: 100px;
+    height: 140px;
+    padding: 60px 20px 60px 20px;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-section .top-bar .company-logo{
-     width: 100px;
-     height: 100px;
-     padding: 10px;
-     border: 2px solid #550101;
-     border-radius: 50%;
+.header-section .header .top-bar .company-logo{
+     width: 120px;
+     height:60px;
+     background: transparent;
+     box-sizing :content-box;
+     image-rendering: crisp-edges;
+     padding: 0;
+     border: 1px solid #05d5fa;
+     border-radius: 50%; 
      
+}
+
+.header-section .header .top-bar .company-name{
+    font-size: 50px;
+    color: rgb(243, 64, 10);
+    background:transparent;
+    font-family: lalezar;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0px;
+}
+
+.header-section .header .top-bar .search-button{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0px 0px 0px 0px;
+}
+
+.header-section .header .top-bar .search-button .search-input{
+    width: 80%;
+    height: 98%;
+    margin:0px;
+    border: none;
+    background-color: transparent; 
+    color: rgb(8, 8, 8);
+    font-size: 16px;
+    padding:10px;
+}
+
+.header-section .header .top-bar .search-button .search-icon{
+    width: 36px;
+    height: 36px;
+    margin-right: 4px;
+    color: rgb(11, 56, 2);
+    border-radius: 50%;
+    background-color: rgba(27, 0, 0, 0.375);
+   
+}
+
+.header-section .header .top-bar .search-button .search-icon:hover{
+    background-color: rgba(150, 147, 12, 0.575);
+    box-shadow: 0px 0px 10px rgb(241, 229, 52);
 }
 
 /*? .header-section .top-bar  .company-name */
